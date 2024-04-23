@@ -1,0 +1,2 @@
+# Ignoruje conn soubor abychom neleekly login info
+conn.php
