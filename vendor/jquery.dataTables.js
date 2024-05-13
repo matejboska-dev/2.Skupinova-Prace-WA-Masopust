@@ -11494,7 +11494,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sSortAscending": ": activate to sort column ascending",
+				"sSortAscending": ": aktivujte pro třídení sloupců vzestupně",
 	
 				/**
 				 * ARIA label that is added to the table headers when the column may be
@@ -11517,7 +11517,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sSortDescending": ": activate to sort column descending"
+				"sSortDescending": ": aktivujte pro třídení sloupců sestupně" 
 			},
 	
 			/**
@@ -11547,7 +11547,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sFirst": "First",
+				"sFirst": "První",
 	
 	
 				/**
@@ -11570,7 +11570,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sLast": "Last",
+				"sLast": "Poslední",
 	
 	
 				/**
@@ -11593,7 +11593,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sNext": "Next",
+				"sNext": "Následující",
 	
 	
 				/**
@@ -11616,7 +11616,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sPrevious": "Previous"
+				"sPrevious": "Předchozí"
 			},
 	
 			/**
@@ -11639,7 +11639,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sEmptyTable": "No data available in table",
+			"sEmptyTable": "Žádná data dostupná v tabulce",
 	
 	
 			/**
@@ -11671,7 +11671,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "Zobrazit _START_ do _END_ z _TOTAL_ záznamů",
 	
 	
 			/**
@@ -11692,7 +11692,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfoEmpty": "Showing 0 to 0 of 0 entries",
+			"sInfoEmpty": "Zobrazeno 0 do 0 z 0 záznamů",
 	
 	
 			/**
@@ -11714,7 +11714,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfoFiltered": "(filtered from _MAX_ total entries)",
+			"sInfoFiltered": "(filtrováno z _MAX_ celkem záznamů)",
 	
 	
 			/**
@@ -11800,7 +11800,7 @@
 			 * with a default select list of 10, 25, 50 and 100, and can be replaced
 			 * with a custom select box if required.
 			 *  @type string
-			 *  @default Show _MENU_ entries
+			 *  @default Zobrazit _MENU_ záznamy 
 			 *
 			 *  @dtopt Language
 			 *  @name DataTable.defaults.language.lengthMenu
@@ -11810,7 +11810,7 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "language": {
-			 *          "lengthMenu": "Display _MENU_ records"
+			 *          "lengthMenu": "Zobra _MENU_ záznamy"
 			 *        }
 			 *      } );
 			 *    } );
@@ -11832,7 +11832,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLengthMenu": "Show _MENU_ entries",
+			"sLengthMenu": "Zobrazit _MENU_ záznamy",
 	
 	
 			/**
@@ -11856,7 +11856,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLoadingRecords": "Loading...",
+			"sLoadingRecords": "Načítání...",
 	
 	
 			/**
@@ -11911,7 +11911,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Search:",
+			"sSearch": "Hledat:",
 	
 	
 			/**
@@ -11969,7 +11969,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sZeroRecords": "No matching records found"
+			"sZeroRecords": "Nenalezeny shodující záznamy"
 		},
 	
 	

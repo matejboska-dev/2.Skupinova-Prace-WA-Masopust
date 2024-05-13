@@ -165,20 +165,33 @@ $(document).ready(function () {
                 array.push($(tr).attr('id'));
             }
             console.log(array);
+            var fromwrapper = document.createElement('div');
+            var btnwrapper = document.createElement('div');
             var form = document.createElement("form");
+            form.id = 'form1'
             form.method = "POST";
             form.action = "/firms/exportFirms.php";
 
-            var data = document.createElement("input");
+            var data = document.createElement("button");
+            var reverse = document.createElement('button');
+            reverse.innerHTML = 'převrátit';
+
+            reverse.addEventListener('click', function(){
+
+            });
 
             var json = { "ids": array };
             data.value = JSON.stringify(json);
             data.name = "ids";
-            data.type = 'hidden';
+            data.type = 'submit';
+            data.form = 'form1';
 
-            form.appendChild(data);
+            btnwrapper.appendChild(data);
+            btnwrapper.appendChild(reverse);
 
-            document.body.appendChild(form);
+            fromwrapper.appendChild(form);
+            fromwrapper.appendChild(btnwrapper);
+            document.body.appendChild(fromwrapper);
 
             form.submit();
         }

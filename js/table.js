@@ -240,12 +240,28 @@ $("#export-vcard").click(function () {
             form.appendChild(data);
             
             //submit button
-             var btn = document.createElement("input");
+             var submitBtn = document.createElement("input");
   
-              btn.value ="Odeslat";
-              btn.type = 'submit';
-                          
-                form.appendChild(btn);
+              submitBtn.value ="Odeslat";
+              submitBtn.type = 'submit';
+
+                form.appendChild(submitBtn);
+
+            //inverse button
+            var inverseBtn = document.createElement('button');
+                inverseBtn.innerHTML = "převrátit";
+                inverseBtn.type = 'button';
+                inverseBtn.addEventListener('click', function(){
+                    //Sem vlozte kod na inverse
+                    var checks = $('form[name="expF"]').children("input");
+                    for (var ii=0;ii<checks.length;ii++) {
+                        var check = checks[ii];
+                        check.checked = !check.checked;
+                    }
+
+                });
+
+                form.appendChild(inverseBtn);
             
             $("#exportForm").html("");            
             $("#exportForm").append(form);
